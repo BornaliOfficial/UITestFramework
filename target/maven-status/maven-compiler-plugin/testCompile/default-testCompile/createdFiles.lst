@@ -1,0 +1,4 @@
+com\kosmos\page\CreateParentAccount.class
+com\kosmos\page\LoginPage.class
+com\kosmos\test\CreateParentAccountTest.class
+com\kosmos\test\LoginTest.class

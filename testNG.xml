@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="UI Automation Suite">
+<listeners>
+		<listener
+			class-name="com.kosmos.core.TestListener" />
+	</listeners>
+	<test name="Smoke Test">
+		<groups>
+			<dependencies>
+				<group depends-on="login" name="createParentAccount"></group>
+			</dependencies>
+		</groups>
+		<classes>
+			<class
+				name="com.kosmos.test.LoginTest" />
+			<class
+				name="com.kosmos.test.CreateParentAccountTest" />
+		</classes>
+	</test>
+</suite>
