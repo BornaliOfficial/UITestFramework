@@ -1,6 +1,0 @@
-com\kosmos\core\PropertyReader.class
-com\kosmos\core\BrowserClientFactory.class
-com\kosmos\core\FileHandler.class
-com\kosmos\core\PageObjectInit.class
-com\kosmos\core\TestListener.class
-com\kosmos\core\ExcelHelper.class
